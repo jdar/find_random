@@ -1,1 +1,2 @@
-# Include hook code here
+require 'find_random'
+ActiveRecord::Base.send(:include, DariusRoberts::FindRandom)
